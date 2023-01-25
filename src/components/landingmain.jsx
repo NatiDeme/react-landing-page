@@ -14,7 +14,7 @@ export default function Landingmain() {
           <div className="bg-gradient-to-r from-[#1e498e] rounded-2xl h-[30rem] pt-10 px-52 w-full flex items-center justify-between">
             <ArrowLeftCircleIcon className="text-brand-yellow h-6 w-6" />
             <Maintext />
-            <img src={landing} alt="robots" className="pb-4 h-[29.5rem]" />
+            <img src={landing} alt="robots" className="pb-4 2xl:h-[29.5rem]" />
             <ArrowRightCircleIcon className="text-brand-yellow h-6 w-6" />
           </div>
         </div>
