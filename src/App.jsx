@@ -1,11 +1,13 @@
+import Catagory from "./components/catagory";
 import Landingmain from "./components/landingmain";
 import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div>
+    <div className="bg-brand-blue">
       <Navbar />
       <Landingmain />
+      <Catagory />
     </div>
   );
 }
