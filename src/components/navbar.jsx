@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <div className="bg-[#0e1f44] text-white">
       <div className="flex gap-5 pt-5 items-center justify-center">
-        <img src={Logo} alt="logo" className="h-20" />
-        <ul className="flex gap-8 text-lg">
+        <img src={Logo} alt="logo" className="h-20 pr-52" />
+        <ul className="flex gap-8 text-base">
           <li className="text-[#0655ff]">Home</li>
           <li>Category</li>
           <li>Catelog</li>
