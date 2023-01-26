@@ -1,13 +1,14 @@
 import Catagory from "./components/catagory";
-import ItemsList from "./components/items";
 import Landingmain from "./components/landingmain";
 import Navbar from "./components/navbar";
+import FilterComponent from "./components/filter";
 
 function App() {
   return (
     <div className="bg-brand-blue">
       <Navbar />
       <Landingmain />
+      <FilterComponent />
       <Catagory />
     </div>
   );
