@@ -3,8 +3,8 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 export default function FilterComponent() {
   return (
-    <div className="mt-10 pl-72">
-      <div className="flex items-center justify-between w-[75rem]">
+    <div className="mt-10 flex justify-center">
+      <div className="flex items-center justify-between w-[65rem]">
         <div className="flex items-center justify-between gap-10">
           <p className="text-xl text-white font-semibold">Popular Service</p>
           <ul className="text-white flex items-center gap-2">

@@ -2,6 +2,7 @@ import Catagory from "./components/catagory";
 import Landingmain from "./components/landingmain";
 import Navbar from "./components/navbar";
 import FilterComponent from "./components/filter";
+import CarouselLayout from "./components/carousel";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Landingmain />
       <FilterComponent />
       <Catagory />
+      <CarouselLayout />
     </div>
   );
 }
