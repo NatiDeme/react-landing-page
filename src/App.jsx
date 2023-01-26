@@ -1,4 +1,5 @@
 import Catagory from "./components/catagory";
+import ItemsList from "./components/items";
 import Landingmain from "./components/landingmain";
 import Navbar from "./components/navbar";
 
