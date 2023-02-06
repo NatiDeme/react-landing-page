@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselCard from "./carouselcard";
 
 export default function CarouselLayout() {
   return (
@@ -6,6 +7,9 @@ export default function CarouselLayout() {
       <p className="text-brand-neutral text-lg font-semibold">
         Recently released
       </p>
+      <div>
+        <CarouselCard />
+      </div>
     </div>
   );
 }
