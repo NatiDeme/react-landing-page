@@ -219,7 +219,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+Design https://www.behance.net/gallery/133969141/Srash-Dashboard-UIUX?tracking_source=search_projects%7Cmusic+site
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
