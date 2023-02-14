@@ -3,7 +3,7 @@ import { EyeIcon } from "@heroicons/react/24/outline";
 
 export default function CarouselCard() {
   return (
-    <div className="relative mt-5">
+    <div className="relative mt-5 w-80 shrink-0">
       <div>
         <img
           src="https://cdn.mos.cms.futurecdn.net/EuEFf8DDE4xU9hEPpugrCP.jpg"
