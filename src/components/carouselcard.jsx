@@ -3,7 +3,7 @@ import { EyeIcon } from "@heroicons/react/24/outline";
 
 export default function CarouselCard() {
   return (
-    <div>
+    <div className="relative mt-5">
       <div>
         <img
           src="https://cdn.mos.cms.futurecdn.net/EuEFf8DDE4xU9hEPpugrCP.jpg"
@@ -11,7 +11,7 @@ export default function CarouselCard() {
           className="h-64 rounded-2xl"
         />
       </div>
-      <div>
+      <div className="absolute top-5 left-2">
         <div className="flex bg-white w-32 p-2 gap-2 justify-center items-center rounded-full">
           <EyeIcon className="h-6 w-6" />
           <p className="text-xs">39,254,897</p>
@@ -23,6 +23,12 @@ export default function CarouselCard() {
           <div className="px-3 py-2 bg-brand-light-blue w-auto rounded-full">
             <p>google</p>
           </div>
+        </div>
+        <div className="text-white mt-5">
+          <p className="font-bold text-3xl w-5">PUBG Mobile</p>
+        </div>
+        <div className="text-white mt-5">
+          <p className="font-bold text-sm">Google Store</p>
         </div>
       </div>
     </div>
