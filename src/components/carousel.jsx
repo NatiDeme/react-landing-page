@@ -20,7 +20,7 @@ export default function CarouselLayout() {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 pb-5 overflow-x-auto pl-[10%]">
+      <div className="flex gap-4 pb-5 overflow-x-auto pl-[10%] overscroll-x-none">
         {me.map((m) => (
           <CarouselCard key={m} />
         ))}
