@@ -3,6 +3,7 @@ import Landingmain from "./components/landingmain";
 import Navbar from "./components/navbar";
 import FilterComponent from "./components/filter";
 import CarouselLayout from "./components/carousel";
+import LowerPart from "./components/lowerpart";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FilterComponent />
       <Catagory />
       <CarouselLayout />
+      <LowerPart />
     </div>
   );
 }
