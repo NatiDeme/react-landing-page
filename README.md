@@ -24,9 +24,7 @@
 
 # 📖 React Landing Page <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**React Landing page** is a basic landing page for a concept website
 
 ## 🛠 Built With <a name="built-with"></a>
 
